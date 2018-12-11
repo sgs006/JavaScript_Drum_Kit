@@ -73,7 +73,7 @@
       key.classList.add('playing');
 
     }
-
+  //removes 'playing' CSS css to remove the transition effects after it ends
     function removeTransition(e) {
       if (e.propertyName !== 'transform') return;//stop function if not transform
       this.classList.remove('playing');
@@ -81,8 +81,8 @@
     }
 
     const keys = document.querySelectorAll('.key');
-    keys.forEach(key => key.addEventListener('transitionend', removeTransition));
-    window.addEventListener('keydown', playSound);
+    keys.forEach(key => key.addEventListener('transitionend', removeTransition)); //after CSS transition run removeTransition();
+    window.addEventListener('keydown', playSound); //on keypress run playSound(); 
   </script>
 
 
