@@ -12,7 +12,6 @@ New things I learned:
 
 1)Using data-key to create custom attributes to store custome data for the application. [w3schools](https://www.w3schools.com/tags/att_global_data.asp)
 
-
 It was interesting to see how to grab these custom attributes in JavaScript using `[data-key = ]`
 
 
