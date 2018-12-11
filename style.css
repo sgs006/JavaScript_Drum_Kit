@@ -31,7 +31,7 @@ body,html {
   background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem black;
 }
-//Adds color and minor effect to let user know when they have hit the corresponding key.
+/*Adds color and minor effect to let user know when they have hit the corresponding key.*/
 .playing {
   transform: scale(1.1);
   border-color: #ffc600;
